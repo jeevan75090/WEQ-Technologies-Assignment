@@ -1,0 +1,26 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Apply basic styles to the table */
+#jsonTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 5px;
+  border: 2px solid black;
+}
+
+/* Style table header */
+#jsonTable th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 15px;
+  border: 1px solid #dddddd;
+}
+
+/* Style table rows */
+#jsonTable td {
+  text-align: left;
+  padding: 5px;
+  border-bottom: 1px solid rgb(80, 77, 77);
+}
